@@ -1,11 +1,9 @@
-<div class="cover-main"><img width="180px" src="icon/icon.JPG">
+<div class="cover-main">
+<img width="180px" src="icon/logo.jpg">
 
-<h1 id="toBeTopJavaer">
-<a><span>To Be Top Javaer  -  Java工程师成神之路</span></a></h1>
+<h1 id="cdbleasing">
+<a><span>国银数字化小微融资租赁系统操作手册</span></a></h1>
 
-
-
-![](https://img.shields.io/badge/version-v2.0.0-green.svg) ![](https://img.shields.io/badge/author-Hollis-yellow.svg) ![](https://img.shields.io/badge/license-GPL-blue.svg)
 
 <span id="busuanzi_container_site_pv" style="display: inline;">
     👁️本页总访问次数:<span id="busuanzi_value_site_pv"></span> 
@@ -15,3 +13,4 @@
 </span>
 
 <a href="#/menu">开始阅读</a></p></div><div class="mask"></div></section>
+</div>
