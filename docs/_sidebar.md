@@ -40,7 +40,7 @@
             * [为什么说Java中只有值传递](/basics/object-oriented/why-pass-by-reference.md)
       
     * Java基础知识
-        
+      
         * 基本数据类型
 
             * [8种基本数据类型](/basics/java-basic/basic-data-types.md)
@@ -172,7 +172,7 @@
             * [枚举的线程安全性问题](/basics/java-basic/enum-thread-safe.md)
             
         * IO
-            
+          
             * [字符流、字节流](/basics/java-basic/byte-stream-vs-character-stream.md)
             
             * [输入流、输出流](/basics/java-basic/input-stream-vs-output-stream.md)
@@ -202,7 +202,7 @@
             * `java.lang.reflect.*`
             
         * 动态代理
-            
+          
             * [静态代理](/basics/java-basic/static-proxy.md)
             
             * [动态代理](/basics/java-basic/dynamic-proxy.md)
@@ -214,7 +214,7 @@
             * [AOP](/basics/java-basic/aop-vs-proxy.md)
            
         * 序列化
-           
+          
            * [什么是序列化与反序列化](basics/java-basic/serialize.md)
            
            * [Java如何实现序列化与反序列化](basics/java-basic/serialize-in-java.md)
@@ -240,7 +240,7 @@
            * [fastjson的反序列化漏洞](basics/java-basic/bug-in-fastjson.md)
            
         * 注解
-           
+          
            * [元注解](/basics/java-basic/meta-annotation.md)
            
            * [自定义注解](/basics/java-basic/custom-annotation.md)
@@ -252,9 +252,9 @@
            * [如何自定义一个注解？](/basics/java-basic/create-annotation.md)
            
            * [Spring常用注解](/basics/java-basic/annotation-in-spring.md)
-            
+           
         * 泛型
-            
+          
             * [什么是泛型](/basics/java-basic/generics.md)
             
             * [类型擦除](/basics/java-basic/type-erasue.md)
@@ -274,7 +274,7 @@
             * [`List<?>`和`List<Object>`之间的区别是什么?](/basics/java-basic/genericity-list-wildcard.md)
             
         * 单元测试
-            
+          
             * [junit](/basics/java-basic/junit.md)
             
             * junit 和Spring 的结合
@@ -286,11 +286,11 @@
             * [内存数据库（h2）](/basics/java-basic/h2-db.md)
             
         * 正则表达式
-            
+          
             * `java.lang.util.regex.*`
             
         * 常用的Java工具库
-            
+          
             * `commons.lang`
             
             * `commons.*...` 
@@ -300,7 +300,7 @@
             * `netty`
             
         * API&SPI
-            
+          
             * API
             
             * [API和SPI的关系和区别](/basics/java-basic/api-vs-spi.md)
@@ -310,7 +310,7 @@
             * [SPI的实现原理](/basics/java-basic/spi-principle.md)
             
         * 异常
-            
+          
             * [Error和Exception](/basics/java-basic/error-vs-exception.md)
             
             * [异常类型](/basics/java-basic/exception-type.md)
@@ -328,7 +328,7 @@
             * [finally和return的执行顺序](/basics/java-basic/order-about-finllly-return.md)
             
         * 时间处理
-            
+          
             * [时区](/basics/java-basic/time-zone.md)
             
             * [冬令时和夏令时](/basics/java-basic/StandardTime-vs-daylightSavingTime.md)
@@ -350,7 +350,7 @@
             * [yyyy和YYYY有什么区别？](/basics/java-basic/YYYY-vs-yyyy.md)
             
         * 编码方式
-            
+          
             * [什么是ASCII？](/basics/java-basic/ASCII.md)
             
             * [Unicode](/basics/java-basic/UNICODE.md)
@@ -370,25 +370,25 @@
             * 如何解决乱码问题
             
         * 语法糖
-            
+          
             *  [Java中语法糖原理、解语法糖](/basics/java-basic/syntactic-sugar.md)
             
             *  [语法糖介绍](/basics/java-basic/syntactic-sugar.md)
             
         * JMS
-            
+          
             * 什么是Java消息服务
             
             * JMS消息传送模型
             
         * JMX
-            
+          
             * java.lang.management.* 
             
             * javax.management.*
             
         * Java 8
-            
+          
             * [lambda表达式](/basics/java-basic/lambda.md)
             
             * [Stream API](/basics/java-basic/stream.md)
@@ -396,7 +396,7 @@
             * [时间API](/basics/java-basic/time-in-java8.md)
             
         * 阅读源代码
-            
+          
             * String
             
             * Integer
@@ -416,11 +416,11 @@
             * HashMap & LinkedHashMap & TreeMap & CouncurrentHashMap
             
             * HashSet & LinkedHashSet & TreeSet
-            
+        
     * Java并发编程
             
         * 并发与并行
-            
+          
             * [什么是并发](/basics/concurrent-coding/concurrent.md)
             
             * [什么是并行](/basics/concurrent-coding/parallel.md)
@@ -446,7 +446,7 @@
             * [守护线程](/basics/concurrent-coding/deamon-thread.md)
             
         * 创建线程的多种方式
-            
+          
             * 继承Thread类创建线程
             
             * 实现Runnable接口创建线程
@@ -456,7 +456,7 @@
             * 通过线程池创建线程
             
         * 线程池
-            
+          
             * 自己设计线程池
             
             * submit() 和 execute()
@@ -526,7 +526,7 @@
             * 死锁问题如何排查
     
         * synchronized
-            
+          
             * [synchronized是如何实现的？](/basics/concurrent-coding/synchronized.md)
             
             * synchronized和lock之间关系
@@ -570,9 +570,9 @@
             * ThreadLocal 底层的数据结构
             
         * 写代码来解决生产者消费者问题
-            
+          
         * 并发包
-            
+          
             * 同步容器与并发容器
             
             * Thread
@@ -594,13 +594,13 @@
             * ConcurrentHashMap
             
             * Executors
-            
+    
 * 底层篇
             
      * JVM
             
         * JVM内存结构
-            
+          
             * 运行时数据区
             
             * 运行时数据区哪些是线程独享
@@ -618,7 +618,7 @@
             * [Java中的对象一定在堆上分配吗？](/basement/jvm/stack-alloc.md)
             
         * 垃圾回收
-            
+          
             * GC算法：标记清除、引用计数、复制、标记压缩、分代回收、增量式回收
             
             * GC参数
@@ -644,21 +644,21 @@
             * -XX:MaxPermSize
             
             * -XX:MaxTenuringThreshold
-                    
-        * Java对象模型
             
+        * Java对象模型
+          
             * oop-klass
             
             * 对象头
             
         * HotSpot
-            
+          
             * 即时编译器
             
             * 编译优化
             
         * Java内存模型
-            
+          
             * 计算机内存模型
             
             * 缓存一致性
@@ -710,7 +710,7 @@
         * jlink
         
         * Arthas
-            
+        
     * 类加载机制
             
         * classLoader
@@ -724,13 +724,13 @@
         * 模块化（jboss modules、osgi、jigsaw）
         
     * 打包工具
-        
+      
         * jar
         
         * jlink
         
         * jpackage
-            
+        
     * 编译与反编译
             
         * 什么是编译
@@ -740,7 +740,7 @@
         * [Class常量池](/basics/java-basic/class-contant-pool.md)
         
         * 编译工具：javac
-                
+          
         * 反编译工具：javap 、jad 、CRF
         
     * JIT
@@ -748,7 +748,7 @@
         * JIT优化（逃逸分析、栈上分配、标量替换、锁优化）
         
         
-            
+    
 * 进阶篇          
     * Java底层知识
             
@@ -759,13 +759,13 @@
         * CAFEBABE
         
     * 位运算
-        
+      
         * 用位运算实现加、减、乘、除、取余
-            
-    * 设计模式
         
+    * 设计模式
+      
         * 设计模式的六大原则
-            
+          
             * 开闭原则（Open Close Principle）
             
             * 里氏代换原则（Liskov Substitution Principle）
@@ -869,11 +869,11 @@
             * 代理模式
             
         * 不用synchronized和lock，实现线程安全的单例模式
-            
+          
         * nio和reactor设计模式
         
         * Spring中用到了哪些设计模式
-            
+        
     * 网络编程知识
     
         * 常用协议
@@ -916,19 +916,19 @@
         * http/2
         
         * Java RMI，Socket，HttpClient
-                
+          
         * cookie 与 session
-            
+          
             * cookie被禁用，如何实现session
         
         * 了解nginx和apache服务器的特性并搭建一个对应的服务器
-       
+         
         * 进程间通讯的方式
-            
+          
         * 什么是CDN？如果实现？
-            
+          
         * DNS？
-            
+          
             * 什么是DNS 
             
             * 记录类型:A记录、CNAME记录、AAAA记录等
@@ -944,17 +944,17 @@
             * 公共DNS：114 DNS、Google DNS、OpenDNS
             
         * 反向代理
-            
+          
             * 正向代理
             
             * 反向代理
             
             * 反向代理服务器
-            
+        
     * 框架知识
             
         * Servlet
-            
+          
             * 生命周期
             
             * 线程安全问题
@@ -964,7 +964,7 @@
             * web.xml中常用配置及作用
             
         * Hibernate
-            
+          
             * 什么是OR Mapping
             
             * Hibernate的缓存机制
@@ -986,7 +986,7 @@
             * Mybatis的延迟加载
             
         * Spring 
-            
+          
             * Bean的初始化
             
             * AOP原理
@@ -996,13 +996,13 @@
             * spring四种依赖注入方式
             
         * Spring MVC
-            
+          
             * 什么是MVC
             
             * Spring mvc与Struts mvc的区别
             
         * Spring Boot
-            
+          
             * Spring Boot 2.0
             
             * 起步依赖
@@ -1016,43 +1016,43 @@
             * 为什么Spring Boot可以通过main启动web项目
             
         * Spring Security
-            
+          
         * Spring Cloud
                 
             * 服务发现与注册：Eureka、Zookeeper、Consul
-                
+              
             * 负载均衡：Feign、Spring Cloud Loadbalance
-                
+              
             * 服务配置：Spring Cloud Config
-                
+              
             * 服务限流与熔断：Hystrix
-                
+              
             * 服务链路追踪：Dapper
-                
+              
             * 服务网关、安全、消息
-            
+        
     * 应用服务器知识
             
         * JBoss
-            
+          
         * tomcat
-            
+          
         * jetty
-            
+          
         * Weblogic
-            
+        
     * 工具
             
         * git & svn
-            
+          
         * maven & gradle
-            
+          
         * git技巧
-       
+         
             * 分支合并
-       
+            
             * 冲突解决
-       
+            
             * 提交回滚
             
         * maven技巧
@@ -1060,42 +1060,42 @@
             * 依赖树
         
             * 依赖仲裁
-                
+            
         * Intellij IDEA
             * 常用插件：Maven Helper、FindBugs-IDEA、阿里巴巴代码规约检测、GsonFormat、Lombok plugin、.ignore、Mybatis plugin
-            
+    
 * 高级篇
             
     * 新技术
             
         * Java 9
-            
+          
             * Jigsaw
             * Jshell
             * Reactive Streams
             
         * Java 10
-            
+          
             * 局部变量类型推断
             * G1的并行Full GC
             * ThreadLocal握手机制
             
         * Java 11
-            
+          
             * ZGC
             * Epsilon
             * 增强var
         * Java 12
-            
+          
             * Switch 表达式
             
         * Java 13
-            
+          
             * Text Blocks
             * Dynamic CDS Archives
-             
-        * Java 14
             
+        * Java 14
+          
             * Java打包工具
             
             * 更有价值的NullPointerException
@@ -1103,15 +1103,15 @@
             * record类型
             
         * Spring 5
-            
+          
             * 响应式编程
             
         * Spring Boot 2.0
-            
+          
         * http/2
-                
+          
         * http/3
-            
+        
     * 性能优化
             
         * 使用单例
@@ -1131,25 +1131,25 @@
         * 结果缓存
         
         * Stream并行流
-         
+        
         * GC调优
-         
+        
         * JVM内存分配调优
-         
+        
         * SQL调优
         
     * 线上问题分析
             
         * dump
-            
+          
             * 线程Dump
             
             * 内存Dump
             
             * gc情况
-      
+        
         * dump获取及分析工具
-            
+          
             * jstack
             
             * jstat
@@ -1163,9 +1163,9 @@
         * dump分析死锁
         
         * dump分析内存泄露
-            
+          
         * 自己编写各种outofmemory，stackoverflow程序
-            
+          
             * HeapOutOfMemory
             
             * Young OutOfMemory
@@ -1179,7 +1179,7 @@
             * Stack OutOfMemory Stack OverFlow
             
         * Arthas
-            
+          
             * jvm相关
             
             * class/classloader相关
@@ -1193,7 +1193,7 @@
             * 后台异步任务
             
         * 常见问题解决思路
-            
+          
             * 内存溢出
             
             * 线程死锁
@@ -1207,7 +1207,7 @@
             * 慢SQL
             
         * 使用工具尝试解决以下问题，并写下总结
-            
+          
             * 当一个Java程序响应很慢时如何查找问题
             
             * 当一个Java程序频繁FullGC时如何解决问题
@@ -1225,15 +1225,15 @@
             * 使用Arthas排查线上应用日志打满问题
             
             * 利用Arthas排查Spring Boot应用NoSuchMethodError
-            
+        
     * 编译原理知识
             
         * 编译与反编译
-            
+          
         * Java代码的编译与反编译
-            
+          
         * Java的反编译工具
-            
+          
             * javap 
             
             * jad 
@@ -1243,7 +1243,7 @@
         * 即时编译器
         
             * 编译器优化
-            
+        
     * 操作系统知识
             
         * Linux的常用命令
@@ -1257,17 +1257,17 @@
         * 服务器性能指标
           
             * load
-          
+            
             * CPU利用率
-          
+            
             * 内存使用情况
-          
+            
             * qps
-          
+            
             * rt
             
         * 进程同步
-            
+          
             * 生产者消费者问题
             
             * 哲学家就餐问题
@@ -1275,27 +1275,27 @@
             * 读者写者问题
             
         * 缓冲区溢出
-            
+          
         * 分段和分页
-            
+          
         * 虚拟内存与主存
-            
+          
         * 虚拟内存管理
-            
+          
         * 换页算法
-            
+        
     * 数据库知识
             
         * MySql 执行引擎
-            
+          
         * MySQL 执行计划
-            
+          
             * 如何查看执行计划
             
             * 如何根据执行计划进行SQL优化
             
         * 索引
-            
+          
             * Hash索引&B树索引
               
             * 普通索引&唯一索引
@@ -1311,11 +1311,11 @@
             * 索引失效
             
         * 回表
-            
+          
         * SQL优化
-            
+          
         * 数据库事务和隔离级别
-            
+          
             * 事务的ACID
               
             * 事务的隔离级别与读现象
@@ -1323,7 +1323,7 @@
             * 事务能不能实现锁的功能
             
         * 编码方式
-            
+          
             * utf8
             
             * utf8mb4
@@ -1331,13 +1331,13 @@
             * 为什么不要在数据库中使用utf8编码
             
         * 行数统计
-            
+          
             * count(1)、count(*)、count(字段)的区别
             
             * 为什么建议使用count(*)
 
         * 数据库锁
-            
+          
             * 共享锁、排它锁
               
             * 行锁、表锁
@@ -1349,7 +1349,7 @@
             * Gap Lock、Next-Key Lock
             
         * 连接
-            
+          
             * 内连接
             
             * 左连接
@@ -1365,29 +1365,29 @@
             * redolog
             
         * 内存数据库
-            
+          
             * h2
             
         * 分库分表
-            
+          
         * 读写分离
-            
+          
         * 常用的nosql数据库
-            
+          
             * redis
             
             * memcached
             
         * 分别使用数据库锁、NoSql实现分布式锁
-            
+          
         * 性能调优
-            
+          
         * 数据库连接池
-            
+        
     * 数据结构与算法知识
             
         * 简单的数据结构
-            
+          
             * 栈
             * 队列
             
@@ -1404,7 +1404,7 @@
             * 两个栈实现队列，和两个队列实现栈
             
         * 树
-            
+          
             * 二叉树
             
             * 字典树
@@ -1424,13 +1424,13 @@
             * 红黑树
             
         * 堆
-            
+          
             * 大根堆
             
             * 小根堆
             
         * 图
-            
+          
             * 有向图
             
             * 无向图
@@ -1464,9 +1464,9 @@
             * 耐心排序
             
         * 各种排序算法和时间复杂度 
-            
+          
         * 深度优先和广度优先搜索 
-            
+          
         * 全排列
         
         * 贪心算法
@@ -1474,9 +1474,9 @@
         * KMP算法
         
         * hash算法
-            
+          
         * 海量数据处理
-            
+          
             * 分治
             * hash映射
             * 堆排序
@@ -1485,7 +1485,7 @@
             * bitmap
             * 数据库索引
             * mapreduce等。
-            
+        
     * 大数据知识
             
         * 搜索 
@@ -1497,7 +1497,7 @@
             * ElasticSearch
         
         * 流式计算
-            
+          
             * Storm
             
             * Spark
@@ -1505,7 +1505,7 @@
             * Flink
             
         * Hadoop，离线计算
-            
+          
             * HDFS
             
             * MapReduce
@@ -1521,38 +1521,38 @@
         * 数据挖掘
         
             * mahout
-            
+        
     * 网络安全知识
             
         * XSS
-            
+          
             * XSS的防御
             
         * CSRF
-            
+          
         * 注入攻击
-            
+          
             * SQL注入
             * XML注入
             * CRLF注入
             
         * 文件上传漏洞
-            
+          
         * 加密与解密
-            
+          
             * 对称加密
             * 非对称加密
             * 哈希算法
             * 加盐哈希算法
             
         * 加密算法
-            
+          
             * MD5，SHA1、DES、AES、RSA、DSA
             
         * 彩虹表
-            
+          
         * DDOS攻击
-            
+          
             * DOS攻击
             * DDOS攻击
             
@@ -1563,27 +1563,27 @@
             * 如何通过Hash碰撞进行DOS攻击
             
         * SSL、TLS，HTTPS
-            
+          
         * 脱库、洗库、撞库
-            
+    
 * 架构篇
 
     * 架构设计原则
     
         * 单一职责原则
-     
+    
         * 开放封闭原则
-     
+    
         * 里氏替代原则
-     
+    
         * 依赖倒置原则
-     
+    
         * 接口分离原则
         
     * 分布式
-        
+      
         * 分布式理论
-            
+          
             * 2PC
             
             * 3PC
@@ -1610,15 +1610,15 @@
             * 最大努力通知
             
             * TCC
-                
-        * Dubbo
             
+        * Dubbo
+          
             * 服务注册
             * 服务发现
             * 服务治理
-                
-        * 分布式数据库
             
+        * 分布式数据库
+          
             * 怎样打造一个分布式数据库
             
             * 什么时候需要分布式数据库
@@ -1628,14 +1628,14 @@
             * otter
             
             * HBase
-                
-        * 分布式文件系统
             
+        * 分布式文件系统
+          
             * mfs
             * fastdfs
-                
-        * 分布式缓存
             
+        * 分布式缓存
+          
             * 缓存一致性
             * 缓存命中率
             * 缓存冗余
@@ -1651,7 +1651,7 @@
             * resilience4j
             
         * 分布式算法
-            
+          
             * 拜占庭问题与算法
             
             * 2PC
@@ -1663,7 +1663,7 @@
             * Paxos 算法与 Raft 算法
             
             * ZAB算法
-            
+        
     * 领域驱动设计
     
         * 实体、值对象
@@ -1682,17 +1682,17 @@
        * SOA
        
        * 康威定律
-            
+         
        * ServiceMesh
-            
+         
           * sidecar
-            
+          
        * Docker & Kubernets
-            
+         
        * Spring Boot
-            
+         
        * Spring Cloud
-            
+       
     * 高并发
             
         * 分库分表
@@ -1702,13 +1702,13 @@
             * 分库分表后的分布式事务问题
 
         * CDN技术
-            
+          
         * 消息队列
-            
+          
             * RabbitMQ、RocketMQ、ActiveMQ、Kafka  
 
             * 各个消息队列的对比
-            
+        
     * 高可用
     
         *  双机架构
@@ -1744,7 +1744,7 @@
     * 监控
             
         * 监控什么
-            
+          
             * CPU
             
             * 内存
@@ -1754,7 +1754,7 @@
             * 网络I/O
             
         * 监控手段
-            
+          
             * 进程监控
             
             * 语义监控
@@ -1764,12 +1764,12 @@
             * 数据波动
             
         * 监控数据采集
-            
+          
             * 日志
             * 埋点
             
         * Dapper
-            
+        
     * 负载均衡
     
         * 负载均衡分类
@@ -1795,17 +1795,17 @@
             * 静态负载均衡算法：轮询，比率，优先权
         
             * 动态负载均衡算法: 最少连接数,最快响应速度，观察方法，预测法，动态性能分配，动态服务器补充，服务质量，服务类型，规则模式。
-            
+        
     * DNS
             
         * DNS原理
         
         * DNS的设计
-            
+        
     * CDN
             
         * 数据一致性
-            
+    
 * 扩展篇
             
     * 云计算
@@ -1821,7 +1821,7 @@
         * openstack
         
         * Serverlsess
-            
+        
     * 搜索引擎
             
         * Solr
@@ -1831,11 +1831,11 @@
         * Nutch
         
         * Elasticsearch
-            
+        
     * 权限管理
             
         * Shiro
-            
+        
     * 区块链
             
         * 哈希算法
@@ -1846,20 +1846,20 @@
         * Paxos 算法与 Raft 算法
         * 拜占庭问题与算法
         * 消息认证码与数字签名
-            
+          
         * 比特币
-            
+          
            * 挖矿
            * 共识机制
            * 闪电网络
            * 侧链
            * 热点问题
            * 分叉
-            
+           
         * 以太坊
-            
+          
            * 超级账本
-            
+        
     * 人工智能
             
         * 数学基础
@@ -1867,18 +1867,18 @@
         * 人工神经网络
         * 深度学习
         * 应用场景
-            
+          
         * 常用框架
-            
+          
             * TensorFlow
             * DeepLearning4J
-            
+        
     * IoT
-            
+      
     * 量子计算
-            
+      
     * AR & VR
-            
+      
     * 其他语言
             
         * Groovy
