@@ -1,5 +1,5 @@
 <div class="cover-main">
-<img width="180px" src="icon/logo.jpg">
+<img width="400px" src="icon/logo.jpg">
 
 <h1 id="cdbleasing">
 <a><span>国银数字化小微融资租赁系统操作手册</span></a></h1>
